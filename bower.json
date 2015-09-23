@@ -1,0 +1,32 @@
+{
+  "name": "social-image-sharing",
+  "main": "social-image-sharing.js",
+  "homepage": "https://github.com/null-none",
+  "authors": [
+    { "name": "Dmitry Kalinin", "homepage": "https://github.com/null-none" },
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:null-none/social-image-sharing.git"
+  },
+  "description": "Angular module for share pictures in social network",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "facebook",
+    "share",
+    "twitter",
+    "pinterest",    
+    "google plus",    
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "docs",
+    "examples",
+    "builder"
+  ]
+}

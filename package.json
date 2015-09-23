@@ -1,0 +1,37 @@
+{
+  "name": "social-image-sharing",
+  "version": "0.0.1",
+  "description": "Angular module for share pictures in social network",
+  "main": "./social-image-sharing.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "builder": "builder"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/null-none/social-image-sharing.git"
+  },
+  "keywords": [
+    "facebook",
+    "share",
+    "twitter",
+    "pinterest",    
+    "google plus"
+  ],
+  "bugs": "https://github.com/null-none/social-image-sharing/issues",
+  "author": {
+    "name": "Dmitry Kalinin",
+    "url": "https://github.com/null-none"
+  },
+  "contributors": [
+    {
+      "name": "Dmitry Kalinin",
+      "url": "https://github.com/null-none"
+    }
+  ],
+  "license": "MIT"
+}
