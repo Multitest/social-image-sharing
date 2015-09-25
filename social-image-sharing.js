@@ -14,11 +14,13 @@ angular.module('socialImageSharing', [])
               $window.open('http://twitter.com/home?status=' + element.data('url'), element.data('text'), config = 'height=300, width=500');
               break;
             case 'pinterest':
-              window.open('http://www.pinterest.com/pin/create/button/?url=' + element.data('url') + '&media=' + element.data('url') + '&description=' + element.data('text'), element.data('url'), config = 'height=300, width=500');
+              $window.open('http://www.pinterest.com/pin/create/button/?url=' + element.data('url') + '&media=' + element.data('url') + '&description=' + element.data('text'), element.data('url'), config = 'height=300, width=500');
+              break;
+            case 'vk':
+              $window.open('http://vk.com/share.php?url=' + element.data('url'), config = 'height = 300, width = 500 ');
               break;
           }
         });
-
       }
     }
   }]);
